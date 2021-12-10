@@ -21,10 +21,10 @@ We have used the StyleGAN2-ADA PyTorch repository linked [here](https://github.c
 
 StyleGAN2 Pretained Model [Link](https://drive.google.com/file/d/1ZQmv4HxLy6Tw-Jc0oLOpBk3opZGKN6XK/view?usp=sharing).
 
-FID achieved - 29.51
+FID achieved (Unconditional) - 29.51
 
 ## Research corresponding to Pixel2Style2Pixel
 
 We first train a PSP Encoder for our DTD dataset against the generator mentioned above. We observe that the edges of the sketches served as input to the encoder are not getting honored in the final generated output.
-To combat this, we introduce an edge-based loss function which we then add to the final loss term. The exact code for the same can be found [TODO:Add Link here]().
+To combat this, we introduce an edge-based loss function which we then add to the final loss term. The exact code for the same can be found [here](https://github.com/abhisheklalwani/pixel2style2pixel).
 
